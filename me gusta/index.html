@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio con Likes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="network">Network</div>
+        <div class="main-content">
+            <div class="user-profile">
+                <img src="img/igmeg.png" alt="Perfil de Adrien Desplatz" class="profile-pic">
+                <div class="profile-name">Adrien Desplatz</div>
+            </div>
+            <div class="posts-section">
+                <div class="feed-title">Your Feed</div>
+                <div class="posts">
+                    <div class="post">
+                        <div class="user-info">
+                            <div class="username">Linn O.</div>
+                            <div class="message">Acabo de configurar este nuevo bot de Discord, cuéntenme qué opinan ustedes. <a href="#">link</a></div>
+                        </div>
+                        <div class="like2">
+                            <p><span id="likes1">0 like(s)</span></p>
+                            <button class="color" onclick="increaseLikes(1)">Like(s)</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user-info">
+                            <div class="username">Lina K.</div>
+                            <div class="message">Acabo de terminar este <a href="#">nuevo cómic</a>, denle un vistazo.</div>
+                        </div>
+                        <div class="like2">
+                            <p><span id="likes2">0 like(s)</span></p>
+                            <button class="color" onclick="increaseLikes(2)">Like(s)</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user-info">
+                            <div class="username">Mateo H.</div>
+                            <div class="message">No puedo dejar de escuchar este <a href="#">álbum</a>. ¿A quién más le gusta?</div>
+                        </div>
+                        <div class="like2">
+                            <p><span id="likes3">0 like(s)</span></p>
+                            <button class="color" onclick="increaseLikes(3)">like(s)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
